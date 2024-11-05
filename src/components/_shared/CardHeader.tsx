@@ -9,7 +9,7 @@ type Props = {
 const CardHeader = (props: Props) => (
   <div className="flex justify-between items-center w-full">
     {/* title */}
-    <h2 className="text-xl">{props.title}</h2>
+    <h2 className="text-xl font-semibold">{props.title}</h2>
     {/* date Selector */}
     <button className="flex items-center gap-2 text-slate-600 text-sm border-[1px] border-slate-400 py-[6px] px-4 rounded-md">
       {new Date().toLocaleDateString("en-In", {

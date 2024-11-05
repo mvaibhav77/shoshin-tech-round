@@ -16,9 +16,9 @@ const Dashboard = (props: Props) => {
         <h1 className="text-2xl">Dashboard</h1>
       </div>
 
-      <div className="grid md:grid-cols-2 gap-6 grid-cols-1 h-full">
+      <div className="grid md:grid-cols-5 gap-6 grid-cols-1 h-full">
         {/* col1 */}
-        <div className="flex flex-col gap-4 h-full">
+        <div className="flex md:col-span-3 flex-col gap-4 h-full">
           {/* small cards */}
           <div className="flex gap-4">
             {SMALL_CARDS.map((card, index) => (
@@ -38,7 +38,7 @@ const Dashboard = (props: Props) => {
         </div>
 
         {/* cols2 */}
-        <div className="flex flex-col gap-4">
+        <div className="flex md:col-span-2 flex-col gap-4">
           {/* recent activity */}
           <ActivityCard />
 

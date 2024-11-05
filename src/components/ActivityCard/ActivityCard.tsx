@@ -4,7 +4,7 @@ type Props = {};
 
 const ActivityCard = (props: Props) => {
   return (
-    <div className="flex flex-col text-white border-[1px] bg-blue-card  border-slate-400 rounded-lg grow">
+    <div className="flex flex-col text-white border-[1px] bg-blue-card  border-slate-300 rounded-lg grow">
       {/* card header */}
       <h2 className="text-lg bg-card p-4 w-full rounded-lg font-bold border-b-[1px] border-slate-700">
         Recent Activity
@@ -28,8 +28,7 @@ const ActivityCard = (props: Props) => {
 
           {/* description */}
           <p className="">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-            molestiae aliquam iusto reiciendis beatae voluptatum, voluptates.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.{" "}
           </p>
         </div>
 

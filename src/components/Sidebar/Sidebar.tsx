@@ -12,7 +12,7 @@ const Sidebar = (props: Props) => {
   const [activeMenu, setActiveMenu] = useState("Dashboard");
 
   return (
-    <div className="flex flex-col gap-8 items-center py-4 px-2 md:px-4 border-r-2 md:w-[240px] w-[90px] md:h-[100dvh] h-100 border-slate-400">
+    <div className="flex flex-col gap-8 items-center py-4 px-2 md:px-4 border-r-[1px] md:w-[280px] w-[90px] md:h-[100dvh] h-100 border-slate-300">
       {/* header */}
       <div className="flex items-center gap-2 h-fit">
         <Image
@@ -33,7 +33,7 @@ const Sidebar = (props: Props) => {
         <h4 className="text-slate-500 md:text-xs text-[9px]">MAIN MENU</h4>
 
         {/* menu items */}
-        <div className="flex flex-col">
+        <div className="flex flex-col gap-4">
           {MAIN_MENU_ITEMS.map((item, index) => (
             <Link
               key={index}
@@ -59,7 +59,7 @@ const Sidebar = (props: Props) => {
         <h4 className="text-slate-500 md:text-xs text-[9px]">OTHER</h4>
 
         {/* other items */}
-        <div className="flex flex-col">
+        <div className="flex flex-col gap-4">
           {OTHER_MENU_ITEMS.map((item, index) => (
             <Link
               key={index}

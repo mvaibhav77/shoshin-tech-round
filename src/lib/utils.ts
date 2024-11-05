@@ -84,7 +84,7 @@ export const BIG_CARDS = [
 
 export const ANNOUNCEMENTS = [
   {
-    title: "Outing schedu;e for every department",
+    title: "Outing schedule for every department",
     date: "2024-02-12T00:00:00.000Z",
   },
   {
