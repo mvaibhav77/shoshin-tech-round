@@ -20,7 +20,7 @@ const ScheduleCard = (props: Props) => {
             {PRIORITY_SCHEDULE.map((schedule, index) => (
               <div
                 key={index}
-                className="flex gap-2 justify-between p-2 px-4 border-[1px] border-slate-400 rounded-md"
+                className="flex gap-2 justify-between p-2 px-4 bg-slate-100 border-[1px] border-slate-300 rounded-md"
               >
                 <div className="flex flex-col gap-2">
                   <h2 className="text-lg">{schedule.title}</h2>
@@ -36,14 +36,14 @@ const ScheduleCard = (props: Props) => {
         </div>
 
         {/* other schuedule */}
-        <div className="main-menu mt-4 flex flex-col gap-1 w-full">
+        <div className="other-schedule mt-4 flex flex-col gap-1 w-full">
           {/* menu heading */}
           <h4 className="text-slate-500 text-sm text-[9px]">Other</h4>
           <div className="flex flex-col gap-4 w-full mt-2 h-full overflow-auto">
             {OTHER_SCHEDULE.map((schedule, index) => (
               <div
                 key={index}
-                className="flex gap-2 justify-between p-2 px-4 border-[1px] border-slate-400 rounded-md"
+                className="flex gap-2 justify-between p-2 px-4 bg-slate-100 border-[1px] border-slate-300 rounded-md"
               >
                 <div className="flex flex-col gap-2">
                   <h2 className="text-lg">{schedule.title}</h2>

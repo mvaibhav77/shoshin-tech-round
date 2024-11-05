@@ -11,11 +11,11 @@ const Announcement = () => {
       <CardHeader title="Announcement" />
 
       {/* announcements */}
-      <div className="flex flex-col gap-4 w-full mt-4 h-full overflow-auto">
+      <div className="flex flex-col gap-2 w-full mt-4 h-full overflow-auto">
         {ANNOUNCEMENTS.map((announcement, index) => (
           <div
             key={index}
-            className="flex gap-2 justify-between p-4 border-[1px] border-slate-400 rounded-md"
+            className="flex gap-2 justify-between p-4 bg-slate-100 border-[1px] border-slate-300 rounded-md"
           >
             <div className="flex flex-col gap-2">
               <h2 className="text-lg">{announcement.title}</h2>
