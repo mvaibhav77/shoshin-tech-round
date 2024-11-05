@@ -5,7 +5,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --primary: #0a337a;
+  --primary: #161e54;
   --secondary: #ff5151;
   --card: #161e54;
 }
@@ -21,4 +21,9 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-blue-card {
+  background: linear-gradient(0deg, #161e54, #161e54),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
 }

@@ -94,5 +94,19 @@ export const ANNOUNCEMENTS = [
 ];
 
 export const PRIORITY_SCHEDULE = [
-  {}
-]
+  {
+    title: "Review cadidate applications",
+    date: "2024-02-12T00:00:00.000Z",
+  },
+];
+
+export const OTHER_SCHEDULE = [
+  {
+    title: "Interview with candidate",
+    date: "2024-02-12T00:00:00.000Z",
+  },
+  {
+    title: "Short meeting with the team",
+    date: "2024-10-26T00:00:00.000Z",
+  },
+];

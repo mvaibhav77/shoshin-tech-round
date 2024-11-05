@@ -3,6 +3,8 @@ import React from "react";
 import BigCards from "../BigCards/BigCards";
 import SmallCard from "../SmallCard/SmallCard";
 import Announcement from "../Announcement/Announcement";
+import ScheduleCard from "../Schedule/ScheduleCard";
+import ActivityCard from "../ActivityCard/ActivityCard";
 
 type Props = {};
 
@@ -14,7 +16,7 @@ const Dashboard = (props: Props) => {
         <h1 className="text-2xl">Dashboard</h1>
       </div>
 
-      <div className="grid md:grid-cols-2 grid-cols-1 h-full">
+      <div className="grid md:grid-cols-2 gap-6 grid-cols-1 h-full">
         {/* col1 */}
         <div className="flex flex-col gap-4 h-full">
           {/* small cards */}
@@ -38,8 +40,10 @@ const Dashboard = (props: Props) => {
         {/* cols2 */}
         <div className="flex flex-col gap-4">
           {/* recent activity */}
+          <ActivityCard />
 
           {/* upcoming schedule */}
+          <ScheduleCard />
         </div>
       </div>
     </div>
