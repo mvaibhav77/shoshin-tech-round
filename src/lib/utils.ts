@@ -35,3 +35,49 @@ export const OTHER_MENU_ITEMS: MenuItems[] = [
   { logo: React.createElement(BiSupport), title: "Support", link: "/" },
   { logo: React.createElement(MdSettings), title: "Settings", link: "/" },
 ];
+
+export const SMALL_CARDS = [
+  {
+    title: "Available Position",
+    subtitle: "Urgently Needed",
+    total: 24,
+    color: "#FFEFE7",
+    urgent: 4,
+    textColor: "#FF5151",
+  },
+  {
+    title: "Job Open",
+    subtitle: "Active Hiring",
+    total: 240,
+    color: "#E8F0FB",
+    urgent: 4,
+    textColor: "#3786F1",
+  },
+  {
+    title: "New Employees",
+    subtitle: "Department",
+    total: 24,
+    color: "#FDEBF9",
+    urgent: 4,
+    textColor: "#EE61CF",
+  },
+];
+
+export const BIG_CARDS = [
+  {
+    title: "Total Employees",
+    total: 240,
+    men: 120,
+    women: 96,
+    image: "/images/employees.png",
+    change: 2,
+  },
+  {
+    title: "Talent Request",
+    total: 16,
+    men: 6,
+    women: 10,
+    image: "/images/requests.png",
+    change: 5,
+  },
+];

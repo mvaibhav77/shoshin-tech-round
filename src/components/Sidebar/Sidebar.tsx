@@ -12,7 +12,7 @@ const Sidebar = (props: Props) => {
   const [activeMenu, setActiveMenu] = useState("Dashboard");
 
   return (
-    <div className="flex flex-col gap-8 items-center p-4 border-r-2 md:w-[240px] w-[90px] h-[100dvh] border-slate-400">
+    <div className="flex flex-col gap-8 items-center py-4 px-2 md:px-4 border-r-2 md:w-[240px] w-[90px] h-[100dvh] border-slate-400">
       {/* header */}
       <div className="flex items-center gap-2 h-fit">
         <Image
@@ -28,7 +28,7 @@ const Sidebar = (props: Props) => {
       </div>
 
       {/* main menu */}
-      <div className="main-menu flex flex-col md:items-start  items-center gap-2 w-full md:px-2">
+      <div className="main-menu mt-4 flex flex-col md:items-start  items-center gap-2 w-full md:px-2">
         {/* menu heading */}
         <h4 className="text-slate-500 md:text-xs text-[9px]">MAIN MENU</h4>
 
