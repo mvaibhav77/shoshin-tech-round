@@ -15,7 +15,7 @@ type Props = {
 const SmallCard = ({ card }: Props) => {
   return (
     <div
-      className={`card flex flex-col gap-2 p-4 rounded-md flex-1`}
+      className={`card flex flex-col justify-between gap-2 p-4 rounded-md flex-1`}
       style={{ backgroundColor: card.color }}
     >
       <h3 className="text-lg font-semibold">{card.title}</h3>

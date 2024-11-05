@@ -14,7 +14,7 @@ type Props = {
 
 const BigCards = ({ card }: Props) => {
   return (
-    <div className="card flex flex-col gap-2 p-4 flex-1 border-[1px] rounded-lg border-slate-300">
+    <div className="card flex flex-col gap-2 px-4 py-6 flex-1 border-[1px] rounded-lg border-slate-300">
       <h3 className="font-bold text-lg">{card.title}</h3>
 
       <div className="flex gap-2 items-stretch">

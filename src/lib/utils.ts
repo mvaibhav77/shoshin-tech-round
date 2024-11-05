@@ -81,3 +81,18 @@ export const BIG_CARDS = [
     change: 5,
   },
 ];
+
+export const ANNOUNCEMENTS = [
+  {
+    title: "Outing schedu;e for every department",
+    date: "2024-02-12T00:00:00.000Z",
+  },
+  {
+    title: "New Employee Onboarding",
+    date: "2024-10-26T00:00:00.000Z",
+  },
+];
+
+export const PRIORITY_SCHEDULE = [
+  {}
+]
