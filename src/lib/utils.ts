@@ -8,12 +8,8 @@ import {
 } from "react-icons/md";
 import { FaCalendarDay } from "react-icons/fa";
 import { BiSupport } from "react-icons/bi";
+import { MenuItems } from "./types";
 
-interface MenuItems {
-  logo: React.ReactNode;
-  title: string;
-  link: string;
-}
 
 export const MAIN_MENU_ITEMS: MenuItems[] = [
   { logo: React.createElement(MdDashboard), title: "Dashboard", link: "/" },
